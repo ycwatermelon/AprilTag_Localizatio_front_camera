@@ -67,14 +67,14 @@ set(AprilTag_Localization_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(AprilTag_Localization_SOURCE_PREFIX /home/hsien/AprilTag_Localization/src/env)
-  set(AprilTag_Localization_DEVEL_PREFIX /home/hsien/AprilTag_Localization/devel)
+  set(AprilTag_Localization_SOURCE_PREFIX /home/hsien/2024_AprilTag_Localization/src/env)
+  set(AprilTag_Localization_DEVEL_PREFIX /home/hsien/2024_AprilTag_Localization/devel)
   set(AprilTag_Localization_INSTALL_PREFIX "")
   set(AprilTag_Localization_PREFIX ${AprilTag_Localization_DEVEL_PREFIX})
 else()
   set(AprilTag_Localization_SOURCE_PREFIX "")
   set(AprilTag_Localization_DEVEL_PREFIX "")
-  set(AprilTag_Localization_INSTALL_PREFIX /home/hsien/AprilTag_Localization/install)
+  set(AprilTag_Localization_INSTALL_PREFIX /home/hsien/2024_AprilTag_Localization/install)
   set(AprilTag_Localization_PREFIX ${AprilTag_Localization_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hsien/AprilTag_Localization/install/lib;/home/hsien/AprilTag_Localization/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/hsien/2024_AprilTag_Localization/install/lib;/home/hsien/2024_AprilTag_Localization/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hsien/AprilTag_Localization/devel/lib/apriltag_ros/apriltag_ros_single_image_client_node"
-  "/home/hsien/AprilTag_Localization/devel/lib/apriltag_ros/apriltag_ros_single_image_client_node.pdb"
+  "/home/hsien/2024_AprilTag_Localization/devel/lib/apriltag_ros/apriltag_ros_single_image_client_node"
+  "/home/hsien/2024_AprilTag_Localization/devel/lib/apriltag_ros/apriltag_ros_single_image_client_node.pdb"
   "CMakeFiles/apriltag_ros_single_image_client_node.dir/src/apriltag_ros_single_image_client_node.cpp.o"
 )
 

@@ -7,5 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/hsien/AprilTag_Localization/build'
-export ROS_PACKAGE_PATH='/home/hsien/AprilTag_Localization/src:/opt/ros/noetic/share'
+export LD_LIBRARY_PATH='/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/cuda/lib64:/home/hsien/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic'
+export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'
+export PWD='/home/hsien/2024_AprilTag_Localization/build'
+export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'
+export ROS_PACKAGE_PATH='/home/hsien/2024_AprilTag_Localization/src:/opt/ros/noetic/share'

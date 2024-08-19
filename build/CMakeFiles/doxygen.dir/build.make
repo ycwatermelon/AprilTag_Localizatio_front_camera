@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hsien/AprilTag_Localization/src
+CMAKE_SOURCE_DIR = /home/hsien/2024_AprilTag_Localization/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hsien/AprilTag_Localization/build
+CMAKE_BINARY_DIR = /home/hsien/2024_AprilTag_Localization/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/hsien/AprilTag_Localization/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hsien/AprilTag_Localization/src /home/hsien/AprilTag_Localization/src /home/hsien/AprilTag_Localization/build /home/hsien/AprilTag_Localization/build /home/hsien/AprilTag_Localization/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hsien/2024_AprilTag_Localization/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hsien/2024_AprilTag_Localization/src /home/hsien/2024_AprilTag_Localization/src /home/hsien/2024_AprilTag_Localization/build /home/hsien/2024_AprilTag_Localization/build /home/hsien/2024_AprilTag_Localization/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 
