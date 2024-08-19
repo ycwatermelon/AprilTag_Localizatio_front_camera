@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<launch>
+
+	<!-- 設置環境變數 -->
+	<env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find AprilTag_Localization)/models"/>
+	<env name="GAZEBO_RESOURCE_PATH" value="${GAZEBO_RESOURCE_PATH}:$(find AprilTag_Localization)/models"/>
+	
+	<!-- Include the MAVROS node with SITL and Gazebo -->
+	<include file="$(find AprilTag_Localization)/launch/iris_sitl.launch">
+		 <arg name="world" default="$(find AprilTag_Localization)/world/test_map.world"/>
+	</include>
+
+	<!-- Include apriltag_node -->
+	<include file="$(find apriltag_ros)/launch/continuous_detection.launch" />
+
+	<!-- Our node to control  drone -->
+	<node pkg="AprilTag_Localization" type="setpoint_node.py" name="setpoint_node_py" required="true" output="screen" />
+
+</launch>
