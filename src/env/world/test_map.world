@@ -28,6 +28,31 @@
       <pose>0 0 0.05 0 1.57 0</pose>
     </include>
 
+    <include>
+      <uri>model://ApriltagID5</uri>
+      <pose>5 0 3 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://ApriltagID6</uri>
+      <pose>5 1 4 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://ApriltagID7</uri>
+      <pose>5 -1 4 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://ApriltagID8</uri>
+      <pose>5 1 2 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://ApriltagID9</uri>
+      <pose>5 -1 2 0 0 0</pose>
+    </include>
+
     <!-- Only one ROS interface plugin is required per world, as any other plugin can connect a Gazebo
          topic to a ROS topic (or vise versa). -->
     <plugin name="ros_interface_plugin" filename="librotors_gazebo_ros_interface_plugin.so"/>

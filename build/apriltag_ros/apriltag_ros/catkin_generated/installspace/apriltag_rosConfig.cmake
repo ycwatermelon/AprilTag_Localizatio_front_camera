@@ -67,14 +67,14 @@ set(apriltag_ros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(apriltag_ros_SOURCE_PREFIX /home/hsien/2024_AprilTag_Localization/src/apriltag_ros/apriltag_ros)
-  set(apriltag_ros_DEVEL_PREFIX /home/hsien/2024_AprilTag_Localization/devel)
+  set(apriltag_ros_SOURCE_PREFIX /home/yujian/AprilTag_Localization/src/apriltag_ros/apriltag_ros)
+  set(apriltag_ros_DEVEL_PREFIX /home/yujian/AprilTag_Localization/devel)
   set(apriltag_ros_INSTALL_PREFIX "")
   set(apriltag_ros_PREFIX ${apriltag_ros_DEVEL_PREFIX})
 else()
   set(apriltag_ros_SOURCE_PREFIX "")
   set(apriltag_ros_DEVEL_PREFIX "")
-  set(apriltag_ros_INSTALL_PREFIX /home/hsien/2024_AprilTag_Localization/install)
+  set(apriltag_ros_INSTALL_PREFIX /home/yujian/AprilTag_Localization/install)
   set(apriltag_ros_PREFIX ${apriltag_ros_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hsien/2024_AprilTag_Localization/install/lib;/home/hsien/2024_AprilTag_Localization/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/yujian/AprilTag_Localization/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

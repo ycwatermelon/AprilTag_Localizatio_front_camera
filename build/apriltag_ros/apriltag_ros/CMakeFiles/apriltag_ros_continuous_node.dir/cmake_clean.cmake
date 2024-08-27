@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hsien/2024_AprilTag_Localization/devel/lib/apriltag_ros/apriltag_ros_continuous_node"
-  "/home/hsien/2024_AprilTag_Localization/devel/lib/apriltag_ros/apriltag_ros_continuous_node.pdb"
+  "/home/yujian/AprilTag_Localization/devel/lib/apriltag_ros/apriltag_ros_continuous_node"
+  "/home/yujian/AprilTag_Localization/devel/lib/apriltag_ros/apriltag_ros_continuous_node.pdb"
   "CMakeFiles/apriltag_ros_continuous_node.dir/src/apriltag_ros_continuous_node.cpp.o"
 )
 
